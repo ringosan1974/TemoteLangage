@@ -5,7 +5,7 @@
 一応brainf*ckを元にしてます。
 
 ## 使い方
-temote.pyのコマンドライン引数に.temファイルを指定して実行してください。  
+interpreter.pyのコマンドライン引数に.temファイルを指定して実行してください。  
 bf_to_temote.pyの第一引数に.temファイル、第二引数にbrainf*ckのコードを直接渡すことでbrainf*ckからこの言語に変換できます。  
 
 ## てもて言語の仕様
