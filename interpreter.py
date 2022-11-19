@@ -2,9 +2,8 @@ import sys
 
 args = sys.argv
 
-f = open(args[1], 'r')
-code = f.read().split()
-f.close()
+with open(args[1], "r") as f:
+    code = f.read().split()
 
 memory = [0 for i in range(1024)]
 ptr = 0
